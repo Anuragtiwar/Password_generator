@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercise 7 - Password Generator</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="heading">
+            <h1>Password Generator</h1>
+        </div>
+
+        <div id="output"></div>
+
+        <div id="options">
+
+            <div class="settings">
+                <div class="setting">
+                    <input type="checkbox" id="uppercase" checked />
+                    <label for="uppercase">Include Uppercase</label>
+                </div>
+                <div class="setting">
+                    <input type="checkbox" id="lowercase" checked />
+                    <label for="lowercase">Include Lowercase</label>
+                </div>
+                <div class="setting">
+                    <input type="checkbox" id="number" checked />
+                    <label for="number">Include Numbers</label>
+                </div>
+                <div class="setting">
+                    <input type="checkbox" id="symbol" checked/>
+                    <label for="symbol">Include Symbols</label>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="generateBtn">
+            <button class="button" role="button" onclick="generatePassword()">Get New Password</button>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
